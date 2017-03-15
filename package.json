@@ -1,0 +1,29 @@
+{
+  "name": "crypto-regex",
+  "version": "0.1.0",
+  "description": "regex patterns for crypto currencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbitpocket/crypto-regex.git"
+  },
+  "keywords": [
+    "regex",
+    "bitcoin",
+    "cryptocurrency"
+  ],
+  "author": "Stefan Huber <stefan.huber@beyondit.at>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/getbitpocket/crypto-regex/issues"
+  },
+  "homepage": "https://github.com/getbitpocket/crypto-regex#readme",
+  "devDependencies": {
+    "bip39": "^2.3.0",
+    "bitcoinjs-lib": "^2.3.0",
+    "jasmine": "^2.5.3"
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "bitcoin-address" : "[13][a-km-zA-HJ-NP-Z1-9]{25,34}" ,
+    "bitcoin-uri" : "bitcoin:([13][a-km-zA-HJ-NP-Z1-9]{25,34})" ,
+    "bitcoin-xpub-key" : "xpub[a-km-zA-HJ-NP-Z1-9]{100,108}"
+}
