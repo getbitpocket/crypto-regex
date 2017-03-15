@@ -1,1 +1,1 @@
-module.exports = require('./regex');
+module.exports = require('./regex.json');
