@@ -7,6 +7,9 @@
  - bitcoin-address
  - bitcoin-uri
  - bitcoin-xpub-key
+ - testnet-address
+ - testnet-uri
+ - testnet-tpub-key
 
 ## install project
 
