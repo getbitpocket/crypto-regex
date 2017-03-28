@@ -1,6 +1,6 @@
 {
   "name": "crypto-regex",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "regex patterns for crypto currencies",
   "main": "index.js",
   "scripts": {
