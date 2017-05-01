@@ -61,4 +61,11 @@ describe('crypto-regex-testnet', function() {
         expect(match[1]).toEqual(address);
     });
 
+    it('should be a correct tpub key from schildbach wallet', function() {
+        var pubKeyExport = "tpubD8dWq6wHd9sXLeDZ8hiYixYvqApcRBgiYhtKVhEozbhMZBA4qgYtTXtfPWqWKdFXB2uKxptSZiR9LQ4kjNSBNmWfxPFhEByzJx3X9ry4mWw?c=1490794392&h=bip32";
+        var pubKeyOnly = "tpubD8dWq6wHd9sXLeDZ8hiYixYvqApcRBgiYhtKVhEozbhMZBA4qgYtTXtfPWqWKdFXB2uKxptSZiR9LQ4kjNSBNmWfxPFhEByzJx3X9ry4mWw";
+        var match = pubKeyExport.match("^(" + REGEX_TPUB_KEY + ")$");
+        expect(match[2]).toEqual(pubKeyOnly);
+    });
+
 });

@@ -1,8 +1,8 @@
 {
     "bitcoin-address" : "[13][a-km-zA-HJ-NP-Z1-9]{25,34}" ,
     "bitcoin-uri" : "bitcoin:([13][a-km-zA-HJ-NP-Z1-9]{25,34})" ,
-    "bitcoin-xpub-key" : "xpub[a-km-zA-HJ-NP-Z1-9]{100,108}" ,
+    "bitcoin-xpub-key" : "(xpub[a-km-zA-HJ-NP-Z1-9]{100,108})(\\?c=\\d*&h=bip\\d{2,3})?" ,
     "testnet-address" : "[mn2][a-km-zA-HJ-NP-Z1-9]{25,34}" ,
-    "testnet-tpub-key": "tpub[a-km-zA-HJ-NP-Z1-9]{100,108}" ,
+    "testnet-tpub-key": "(tpub[a-km-zA-HJ-NP-Z1-9]{100,108})(\\?c=\\d*&h=bip\\d{2,3})?" ,
     "testnet-uri" : "bitcoin:([mn2][a-km-zA-HJ-NP-Z1-9]{25,34})"
 }
