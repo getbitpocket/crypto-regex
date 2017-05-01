@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/getbitpocket/crypto-regex.svg?branch=master)](https://travis-ci.org/getbitpocket/crypto-regex)
+
 # crypto-regex
 
 > regular expressions for cryptocurrencies
